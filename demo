@@ -1,3 +1,8 @@
+
+TO CHECK AVAILABLE OPERATORS
+oc get packagemanifests
+TO GET DESCRIPTION OF OPERATOR
+oc describe packagemanifests operatorname
 TO LIST ALL INSTALLED OPERATORS
 oc get csv -A
 TO LIST OPERATORS MANAGED BY OLM
